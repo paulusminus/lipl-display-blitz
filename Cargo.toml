@@ -1,0 +1,19 @@
+[package]
+name = "lipl-display-blitz"
+version = "0.4.8"
+edition = "2024"
+
+[features]
+default = []
+fullscreen = ["dep:winit"]
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
+dioxus-native = { git = "https://github.com/DioxusLabs/dioxus" }
+futures-util = "0.3.34"
+json-lines = { git = "https://github.com/paulusminus/json-lines" }
+lipl-display-common = "0.4.8"
+tokio = { version = "1.53.2", features = ["macros"] }
+tracing-subscriber = "0.3.23"
+winit = { version = "0.31.0-beta.2", optional = true }
