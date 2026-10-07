@@ -53,10 +53,10 @@ pub fn app() -> Element {
 }
 
 async fn background_task(store: Store<Lipl>) {
-    let r = json_lines::file_reader("/home/paul/Code/dart/lipl_display/lipl-gatt-input.txt")
+    let r = deserialize_lines::file_reader("/home/paul/Code/dart/lipl_display/lipl-gatt-input.txt")
         .await
         .unwrap();
-    let mut s = json_lines::lines::<Message, _>(r);
+    let mut s = deserialize_lines::lines::<Message, _>(r);
 
     while let Some(message) = s.try_next().await.unwrap() {
         match message {
