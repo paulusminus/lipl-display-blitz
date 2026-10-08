@@ -9,11 +9,11 @@ fullscreen = ["dep:winit"]
 
 [dependencies]
 clap = { version = "4.6.7", features = ["derive"] }
-dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
-dioxus-native = { git = "https://github.com/DioxusLabs/dioxus" }
+dioxus = "0.7.3"
+dioxus-native = { git = "https://github.com/DioxusLabs/blitz" }
 futures-util = "0.3.34"
-deserialize-lines = { git = "https://github.com/paulusminus/json-lines" }
+deserialize-lines = "0.1.0"
 lipl-display-common = "0.4.8"
 tokio = { version = "1.53.2", features = ["macros"] }
 tracing-subscriber = "0.3.23"
-winit = { version = "0.31.0-beta.2", optional = true }
+winit = { version = "0.31.0-beta.3", optional = true }
