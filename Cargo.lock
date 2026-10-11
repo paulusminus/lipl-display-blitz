@@ -1124,15 +1124,12 @@ dependencies = [
 
 [[package]]
 name = "deserialize-lines"
-version = "0.1.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8565cbe6f9c6d0125b8c0a57dd8a7616adebb0d563f9a97d24ae0de4e715944c"
+checksum = "965e273deeff6e2f3320f8dca0b719a1e097806fc7d306997de2d9a838a6c646"
 dependencies = [
  "futures-util",
- "serde",
- "serde_json",
- "tokio",
- "tokio-stream",
+ "pin-project",
 ]
 
 [[package]]
@@ -2848,6 +2845,7 @@ dependencies = [
  "dioxus-native",
  "futures-util",
  "lipl-display-common",
+ "serde_json",
  "tokio",
  "tracing-subscriber",
  "winit",
@@ -5219,17 +5217,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bbae76ab933c85776efabc971569dd6119c580d8f5d448769dec1764bf796ef2"
 dependencies = [
  "native-tls",
- "tokio",
-]
-
-[[package]]
-name = "tokio-stream"
-version = "0.1.19"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a3d06f0b082ba57c26b79407372e57cf2a1e28124f78e9479fe80322cf53420b"
-dependencies = [
- "futures-core",
- "pin-project-lite",
  "tokio",
 ]
 

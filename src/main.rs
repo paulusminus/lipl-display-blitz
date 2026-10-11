@@ -38,7 +38,7 @@ fn default_window_attributes() -> Box<WindowAttributes> {
 fn main() {
     tracing_subscriber::fmt::init();
     launch_cfg(
-        || app::app(),
+        app::app,
         vec![Box::new(|| Box::new(Args::parse()))],
         vec![default_window_attributes()],
     );

@@ -1,4 +1,4 @@
-use std::time::Duration;
+use std::{fs::File, time::Duration};
 
 use crate::{
     args::Args,
@@ -7,10 +7,12 @@ use crate::{
     status::Status,
     store::{Lipl, LiplStoreExt},
 };
+use deserialize_lines::{ErrIntoIO, IntoAsyncBufRead, Parser};
 use dioxus::prelude::*;
 use dioxus_native::use_window;
 use futures_util::TryStreamExt;
 use lipl_display_common::{Command, Message};
+use serde_json::from_str;
 use tokio::time::sleep;
 // #[cfg(feature = "fullscreen")]
 // use winit::monitor::Fullscreen;
@@ -53,10 +55,10 @@ pub fn app() -> Element {
 }
 
 async fn background_task(store: Store<Lipl>) {
-    let r = deserialize_lines::file_reader("/home/paul/Code/dart/lipl_display/lipl-gatt-input.txt")
-        .await
-        .unwrap();
-    let mut s = deserialize_lines::lines::<Message, _>(r);
+    use deserialize_lines::{DeserializeLines, convert};
+    let r = File::open("/home/paul/Code/dart/lipl_display/lipl-gatt-input.txt").unwrap();
+    let parser: Parser<Message> = |s| from_str(&s).err_into_io();
+    let mut s = r.into_async_bufreader().deserialize_lines(convert(parser));
 
     while let Some(message) = s.try_next().await.unwrap() {
         match message {
