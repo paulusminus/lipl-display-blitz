@@ -11,7 +11,7 @@ use dioxus::prelude::*;
 use dioxus_native::use_window;
 use futures_util::TryStreamExt;
 use lipl_display_common::{Command, Message};
-use parse_lines::{ErrIntoIO, IntoAsyncBufRead, Parser};
+use parse_lines::IntoAsyncBufRead;
 use serde_json::from_str;
 use tokio::time::sleep;
 // #[cfg(feature = "fullscreen")]
@@ -57,8 +57,9 @@ pub fn app() -> Element {
 async fn background_task(store: Store<Lipl>) {
     use parse_lines::ParseLines;
     let r = File::open("/home/paul/Code/dart/lipl_display/lipl-gatt-input.txt").unwrap();
-    let parser: Parser<Message> = |s| from_str(&s).err_into_io();
-    let mut s = r.into_async_bufreader().parse_lines(parser);
+    let mut s = r
+        .into_async_bufreader()
+        .parse_lines(|s| from_str::<Message>(&s));
 
     while let Some(message) = s.try_next().await.unwrap() {
         match message {
