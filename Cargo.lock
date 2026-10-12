@@ -1123,16 +1123,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "deserialize-lines"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "965e273deeff6e2f3320f8dca0b719a1e097806fc7d306997de2d9a838a6c646"
-dependencies = [
- "futures-util",
- "pin-project",
-]
-
-[[package]]
 name = "digest"
 version = "0.10.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2840,11 +2830,11 @@ name = "lipl-display-blitz"
 version = "0.4.8"
 dependencies = [
  "clap",
- "deserialize-lines",
  "dioxus",
  "dioxus-native",
  "futures-util",
  "lipl-display-common",
+ "parse-lines",
  "serde_json",
  "tokio",
  "tracing-subscriber",
@@ -3680,6 +3670,16 @@ dependencies = [
  "parley_data",
  "parley_emoji",
  "skrifa",
+]
+
+[[package]]
+name = "parse-lines"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "03a42f1360ef4ce9e1cf3c64828d461291443a16ff3f5618043791b55657673a"
+dependencies = [
+ "futures-util",
+ "pin-project",
 ]
 
 [[package]]
@@ -5450,9 +5450,9 @@ checksum = "5c1cb5db39152898a79168971543b1cb5020dff7fe43c8dc468b0885f5e29df5"
 
 [[package]]
 name = "unicode-ident"
-version = "1.0.26"
+version = "1.0.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d245f478577f809a851594d02313b640fb437e0bb33866753cff937863096954"
+checksum = "a2c754d6c33795a1c324727428e5a7dedb5b06195f9890bdbcba760d3e246563"
 
 [[package]]
 name = "unicode-script"
