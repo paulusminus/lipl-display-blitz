@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "accesskit",
  "accesskit_macos",
@@ -418,7 +418,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -468,7 +468,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -479,7 +479,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -491,7 +491,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -513,7 +513,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -536,7 +536,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -1097,7 +1097,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 
 [[package]]
 name = "derive_more"
@@ -1577,7 +1577,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1611,7 +1611,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -2007,7 +2007,7 @@ dependencies = [
  "objc2-foundation 0.3.2",
  "parlance",
  "read-fonts",
- "roxmltree 0.21.1",
+ "roxmltree 0.21.2",
  "smallvec",
  "windows",
  "windows-core",
@@ -4476,9 +4476,9 @@ checksum = "6c20b6793b5c2fa6553b250154b78d6d0db37e72700ae35fad9387a46f487c97"
 
 [[package]]
 name = "roxmltree"
-version = "0.21.1"
+version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f1964b10c76125c36f8afe190065a4bf9a87bf324842c05701330bba9f1cacbb"
+checksum = "9da7f59328b09405b181fee1018925fad50f157afb43c0c0f5c522c256dd5907"
 dependencies = [
  "memchr",
 ]
@@ -5136,7 +5136,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#286874cc101cfaef2395b56e93c4f27887c38338"
+source = "git+https://github.com/DioxusLabs/blitz#f9cbb275628b8f3017df8f76150f5f32df218620"
 dependencies = [
  "bitflags",
  "stylo",
@@ -5804,7 +5804,7 @@ dependencies = [
  "kurbo",
  "log",
  "pico-args",
- "roxmltree 0.21.1",
+ "roxmltree 0.21.2",
  "simplecss",
  "siphasher",
  "skrifa",
