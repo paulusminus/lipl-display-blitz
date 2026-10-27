@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "accesskit",
  "accesskit_macos",
@@ -401,7 +401,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -451,7 +451,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -462,7 +462,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -474,7 +474,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -496,7 +496,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -518,7 +518,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -1070,7 +1070,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 
 [[package]]
 name = "derive_more"
@@ -1550,7 +1550,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1584,7 +1584,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -4482,9 +4482,9 @@ dependencies = [
 
 [[package]]
 name = "rustix"
-version = "1.1.5"
+version = "1.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "891efababe418670775f199f0d233d84843c227a0949a883ce15b37c78d6629d"
+checksum = "e5e76742e5294153d4dde1207dbec5bdd81eef6fabdc0d2118babadabfd858aa"
 dependencies = [
  "bitflags",
  "errno",
@@ -5112,7 +5112,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6fee0db257c5e263ac7047487e2f56791f89bddd"
+source = "git+https://github.com/DioxusLabs/blitz#ebacd68bd35552e42ed546faa7fa53dfccc109af"
 dependencies = [
  "bitflags",
  "stylo",
@@ -5263,7 +5263,7 @@ dependencies = [
 [[package]]
 name = "taffy"
 version = "0.15.0"
-source = "git+https://github.com/DioxusLabs/taffy?rev=e90751fdd6cec284ced294a225311b22464c6181#e90751fdd6cec284ced294a225311b22464c6181"
+source = "git+https://github.com/DioxusLabs/taffy?rev=c25605620351786eb6a742b74ea4d289f59ebd84#c25605620351786eb6a742b74ea4d289f59ebd84"
 dependencies = [
  "serde",
  "slotmap",
