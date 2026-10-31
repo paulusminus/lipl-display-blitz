@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "accesskit",
  "accesskit_macos",
@@ -401,7 +401,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -451,7 +451,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -462,7 +462,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -474,7 +474,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -496,7 +496,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -518,7 +518,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -1070,7 +1070,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 
 [[package]]
 name = "derive_more"
@@ -1550,7 +1550,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1584,7 +1584,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -1801,9 +1801,9 @@ dependencies = [
 
 [[package]]
 name = "encoding_rs"
-version = "0.8.42"
+version = "0.8.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e985e0451871ad22fb8d2b6b076e2028a502a0d3950998c2c5c0a4f9b5d9679"
+checksum = "89253175e704ab869b04f9db224d38630e0211a53841a79181deae0889e169f5"
 dependencies = [
  "cfg-if",
  "core_detect",
@@ -3088,9 +3088,9 @@ dependencies = [
 
 [[package]]
 name = "log"
-version = "0.4.34"
+version = "0.4.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
+checksum = "5d15f86d12da44cd8d4ec3c73984537eb7f4cadcb9776a575a0a8a05ca11005c"
 
 [[package]]
 name = "logos"
@@ -5112,7 +5112,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#e5929f9e2af42f8fdc10cea315b502d3937b1350"
+source = "git+https://github.com/DioxusLabs/blitz#e42ee1f2577f968e29ea148a75d2d4f0d2cf19cc"
 dependencies = [
  "bitflags",
  "stylo",
@@ -6204,9 +6204,9 @@ dependencies = [
 
 [[package]]
 name = "webbrowser"
-version = "1.2.5"
+version = "1.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d2c8ddfbbf66e501434657400268cefe51b95140a0266236415cda7627732df7"
+checksum = "fe8d20d0214027baf11b8b0cc307c1da7657d8f4db9aa956f7de27a6fb1acbd5"
 dependencies = [
  "jni 0.22.4",
  "log",
