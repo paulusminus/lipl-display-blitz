@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "accesskit",
  "accesskit_macos",
@@ -208,7 +208,7 @@ checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
 [[package]]
 name = "anyrender"
 version = "0.14.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "kurbo",
  "peniko",
@@ -219,7 +219,7 @@ dependencies = [
 [[package]]
 name = "anyrender_svg"
 version = "0.15.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "anyrender",
  "image",
@@ -231,7 +231,7 @@ dependencies = [
 [[package]]
 name = "anyrender_vello_cpu"
 version = "0.18.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "anyrender",
  "bytemuck",
@@ -248,7 +248,7 @@ dependencies = [
 [[package]]
 name = "anyrender_vello_hybrid"
 version = "0.11.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "anyrender",
  "debug_timer 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -420,7 +420,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -470,7 +470,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -481,7 +481,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -493,7 +493,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -515,7 +515,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -537,7 +537,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -1118,7 +1118,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 
 [[package]]
 name = "derive_more"
@@ -1598,7 +1598,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1632,7 +1632,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -2241,6 +2241,7 @@ dependencies = [
  "hashbrown 0.17.1",
  "log",
  "peniko",
+ "png",
  "skrifa",
  "smallvec",
  "vello_common",
@@ -4126,7 +4127,7 @@ dependencies = [
 [[package]]
 name = "pixels_window_renderer"
 version = "0.9.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "anyrender",
  "debug_timer 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -4955,9 +4956,9 @@ dependencies = [
 
 [[package]]
 name = "serde_spanned"
-version = "1.1.2"
+version = "1.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4e7523beb55eece201a2356bee0bbca0d1ab466c14c07703b2e0ee6d42cb0c2c"
+checksum = "9c187e0a369471c550af028cba56d4f4fa2a489ad28151ae95a4d340a2a8b782"
 dependencies = [
  "serde_core",
 ]
@@ -5377,7 +5378,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#f9d0e8c76a5fd9ca10d426ac2c065a4f2ecaecb3"
+source = "git+https://github.com/DioxusLabs/blitz#b6bb45c550a9490afa6c43468c77535c6d76856d"
 dependencies = [
  "bitflags",
  "stylo",
@@ -5534,7 +5535,7 @@ dependencies = [
 [[package]]
 name = "taffy"
 version = "0.15.0"
-source = "git+https://github.com/DioxusLabs/taffy?rev=fca167cf659b8bf48019d0dea90624109a78103f#fca167cf659b8bf48019d0dea90624109a78103f"
+source = "git+https://github.com/DioxusLabs/taffy?rev=4aca4f4933aa9cb7a3266050c788aad4c90288d2#4aca4f4933aa9cb7a3266050c788aad4c90288d2"
 dependencies = [
  "serde",
  "slotmap",
@@ -5755,9 +5756,9 @@ dependencies = [
 
 [[package]]
 name = "toml"
-version = "1.2.0+spec-1.1.0"
+version = "1.2.1+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c5ffcdf8f50436dbbfd675c1fe1b8e0854f42b7defea8584bdebe1aee900e561"
+checksum = "d5755c51863cdac711f1956baf8eb9588e060755f7d3c4c979e70ea1e1f32cd7"
 dependencies = [
  "indexmap",
  "serde_core",
@@ -5770,18 +5771,18 @@ dependencies = [
 
 [[package]]
 name = "toml_datetime"
-version = "1.1.2+spec-1.1.0"
+version = "1.1.3+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b86d767906c6c42421dcba507eb9d203e779497710a47782a224bb871653053"
+checksum = "173f25c883cd2176a2d8212155638c0a60d484a9d84546d270866f40f56b6e49"
 dependencies = [
  "serde_core",
 ]
 
 [[package]]
 name = "toml_edit"
-version = "0.25.18+spec-1.1.0"
+version = "0.25.19+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1ec6e78bd70db9420d8d212fa9dc97f116448a1ceff5d00eabb991d407e21396"
+checksum = "dd43688c4858d7264ae1cf9a9f874a67c3feb74a883b1cd7bebd6a4ea8307218"
 dependencies = [
  "indexmap",
  "toml_datetime",
@@ -6903,7 +6904,7 @@ dependencies = [
 [[package]]
 name = "wgpu_context"
 version = "0.10.0"
-source = "git+https://github.com/DioxusLabs/anyrender?branch=main#812644a68722626e6755ca8319ffebf53c9cdc4e"
+source = "git+https://github.com/DioxusLabs/anyrender?branch=main#814e100d04528badf00801178c6bad6777dfb8d5"
 dependencies = [
  "futures-intrusive",
  "objc2-core-graphics",
