@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "accesskit",
  "accesskit_macos",
@@ -319,7 +319,7 @@ checksum = "82f6aeea286b8eb4dd3431a1be1b59d290ace00f5bfd8e2a159bc2a05e2c1667"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -420,7 +420,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -470,7 +470,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -481,7 +481,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -493,7 +493,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -501,7 +501,6 @@ dependencies = [
  "blitz-traits",
  "bytemuck",
  "color",
- "euclid",
  "kurbo",
  "parley",
  "peniko",
@@ -509,13 +508,12 @@ dependencies = [
  "smallvec",
  "stylo",
  "taffy",
- "usvg",
 ]
 
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -537,7 +535,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -589,9 +587,9 @@ dependencies = [
 
 [[package]]
 name = "brotli-decompressor"
-version = "6.3.0"
+version = "6.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97d9071e5b45944c5a9c06baf13a7a65ffa2c88c204015967852c90869692c05"
+checksum = "75c74c9c51b9140663e196b5fb88bc94c334d7a497c8311cb759d8557874747f"
 dependencies = [
  "alloc-no-stdlib",
 ]
@@ -619,7 +617,7 @@ checksum = "6a1f896587b6f2c069c73d2f0913e2d590c3990285cd2f0b6aa02b786b4c679c"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -750,7 +748,7 @@ dependencies = [
  "heck",
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -1020,7 +1018,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d045de693cb712d0b22c6a64be5b953f67b3ce00ab5ad3dd5d8b441886ab8e1a"
 dependencies = [
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -1118,7 +1116,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 
 [[package]]
 name = "derive_more"
@@ -1598,7 +1596,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1632,7 +1630,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -1778,7 +1776,7 @@ checksum = "c6232dd377dcc64799954cbd3a9bb882e9cdc1308ccd87b1c098f1fb2eaf82a8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -1937,9 +1935,9 @@ checksum = "1c66915cc5391097de7a2b0b972e8505aa33c0df401fd3a6811dbdb32881ba48"
 
 [[package]]
 name = "fixedbitset"
-version = "0.5.7"
+version = "0.5.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1d674e81391d1e1ab681a28d99df07927c6d4aa5b027d7da16ba32d1d21ecd99"
+checksum = "5905ec755cc8386d7928353e4d356d2be3e89e81e5ca01fe630a1ca4d08dc175"
 
 [[package]]
 name = "flate2"
@@ -2099,7 +2097,7 @@ checksum = "9fb9654ba8355388abeb8dcb4fc62f511300867002afc858860463bdd9fe0c44"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -2782,9 +2780,9 @@ dependencies = [
 
 [[package]]
 name = "itoa"
-version = "1.0.18"
+version = "1.0.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
+checksum = "3bd1574e617a9a6c1f8f8181bd7e841e1f20e4277607ef28945765188d6284d4"
 
 [[package]]
 name = "jni"
@@ -4927,7 +4925,7 @@ checksum = "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -4951,7 +4949,7 @@ checksum = "8d3b1629de253c70a0508c3899572da79ca359fdab27c7920ff00406df418906"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -5378,7 +5376,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#be60597f67b3cece0456d26e8d7ff5a88600bbc5"
+source = "git+https://github.com/DioxusLabs/blitz#808ded9348289cac0a3b4940e69da21d5b918443"
 dependencies = [
  "bitflags",
  "stylo",
@@ -5492,9 +5490,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "3.0.9"
+version = "3.0.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d78c8dee4c7bf0e14673097256fed6142ce9d3b85a408189d07482442145823b"
+checksum = "4ae9ccbea3a7b0b09443036490c8f34a8b1b760fd345e5c0dae0aac718faea79"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5529,7 +5527,7 @@ checksum = "901704edd0dfe137f1987838ee4f259e4e063c31371bdb423f7ae38ec6f77f02"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -5628,7 +5626,7 @@ checksum = "fe5197923287db20a58125f0bc85c062f7f2c892de97b18c356f9efb14b28524"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -5731,7 +5729,7 @@ checksum = "78773a2a397f451582ce068015985c33193cf6dea8b74d2a639fe457b2f07b0e"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -6110,9 +6108,9 @@ checksum = "3a3b425286980a367278453f3b6d28cdcb134b574e5a35824a6ff5eebad50bb6"
 
 [[package]]
 name = "uuid"
-version = "1.29.1"
+version = "1.29.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4a06f08a856b009bc7bbaf7d3e79808595d032dd19074c0c2ef26e49e03e6bdc"
+checksum = "bed99139f7dac9b5cfe5f17be4d66dc7079a34dee1d74bcc77217119240e267c"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
@@ -6297,7 +6295,7 @@ dependencies = [
  "bumpalo",
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
  "wasm-bindgen-shared",
 ]
 
@@ -7606,7 +7604,7 @@ checksum = "ec8ebde2db3681e8c9980cc27822030e68752690ddfa9473e739aeb4dbde6d71"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
  "synstructure 0.14.0",
 ]
 
@@ -7647,7 +7645,7 @@ checksum = "f75b4683f6c7f45248d4d64056a24298c6281e0993356d7d1b4a1a962ef10d4a"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
  "synstructure 0.14.0",
 ]
 
@@ -7689,7 +7687,7 @@ checksum = "c3743ddbf47738d929cd1ae2e199d40d0162979dfe31aef8ae646d2bf00bf97a"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 3.0.9",
+ "syn 3.0.10",
 ]
 
 [[package]]
