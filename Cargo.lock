@@ -82,7 +82,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "accesskit",
  "accesskit_ios",
@@ -443,7 +443,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -494,7 +494,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -505,7 +505,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -517,7 +517,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -537,7 +537,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -559,7 +559,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -691,9 +691,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.11.2"
+version = "1.11.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "33ef9e3e8154a45c7a95cff4c1299702106ad94062d7bb85fdc5d3a5afd91d45"
+checksum = "02f0e023adb368345ce0ca6cdfc0f24a06554468d0e8503e14a0841de79bfa69"
 dependencies = [
  "find-msvc-tools",
  "jobserver",
@@ -1140,7 +1140,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 
 [[package]]
 name = "derive_more"
@@ -1620,7 +1620,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1654,7 +1654,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -5547,7 +5547,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#547d7514ba2adb357d41d5e4655a63ddd5cdc5ec"
+source = "git+https://github.com/DioxusLabs/blitz#719268a9e317cdbf5619dea7a7cb3dd0a1287e47"
 dependencies = [
  "bitflags",
  "stylo",
