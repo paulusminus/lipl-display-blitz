@@ -34,7 +34,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f3da8f27636015191b2264ee1df681503170a632cafd832fdc1edfdd4e3a2fd3"
 dependencies = [
  "accesskit",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
 ]
 
 [[package]]
@@ -45,7 +45,7 @@ checksum = "a5280724673bbfa8b30a838c013500b719392989be3b97c5a9964062c252c232"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "objc2 0.5.3",
  "objc2-foundation 0.2.2",
  "objc2-ui-kit 0.2.2",
@@ -59,7 +59,7 @@ checksum = "123828ceeec755b05255e3976cb0852993202de98a0626c97dd8d34246991f84"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "objc2 0.5.3",
  "objc2-app-kit 0.2.2",
  "objc2-foundation 0.2.2",
@@ -73,7 +73,7 @@ checksum = "498668b90da9995302a0055aaecad4756932333da2ddef6baee1c00844c430fc"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "static_assertions",
  "windows",
  "windows-core",
@@ -82,7 +82,7 @@ dependencies = [
 [[package]]
 name = "accesskit_xplat"
 version = "0.2.1"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "accesskit",
  "accesskit_ios",
@@ -443,7 +443,7 @@ dependencies = [
 [[package]]
 name = "blitz-dom"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "accesskit",
  "anyrender",
@@ -494,7 +494,7 @@ dependencies = [
 [[package]]
 name = "blitz-html"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -505,7 +505,7 @@ dependencies = [
 [[package]]
 name = "blitz-net"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "blitz-traits",
  "data-url",
@@ -517,7 +517,7 @@ dependencies = [
 [[package]]
 name = "blitz-paint"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "anyrender",
  "anyrender_svg",
@@ -537,7 +537,7 @@ dependencies = [
 [[package]]
 name = "blitz-shell"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "accesskit",
  "accesskit_xplat",
@@ -559,7 +559,7 @@ dependencies = [
 [[package]]
 name = "blitz-traits"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "atomic_refcell",
  "bitflags",
@@ -1140,7 +1140,7 @@ checksum = "da220af51a1a335e9a930beaaef53d261e41ea9eecfb3d973a3ddae1a7284b9c"
 [[package]]
 name = "debug_timer"
 version = "0.1.3"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 
 [[package]]
 name = "derive_more"
@@ -1620,7 +1620,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "android-activity",
  "anyrender",
@@ -1654,7 +1654,7 @@ dependencies = [
 [[package]]
 name = "dioxus-native-dom"
 version = "0.7.0"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "blitz-dom",
  "blitz-traits",
@@ -2046,7 +2046,7 @@ version = "0.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "eb17c03da08e75b2a84346a7548f34c038fa24d9d5cb12b1ed18c1ea8dbe86d8"
 dependencies = [
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "linebender_resource_handle",
  "memmap2",
  "objc2 0.6.5",
@@ -2271,7 +2271,7 @@ checksum = "9ae2e3b09ea1cc45c994a405e4d4154901d4caa867d3e1be3a02be641f62fefa"
 dependencies = [
  "bytemuck",
  "foldhash 0.2.0",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "log",
  "peniko",
  "png",
@@ -2403,9 +2403,9 @@ dependencies = [
 
 [[package]]
 name = "hashbrown"
-version = "0.17.1"
+version = "0.17.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
+checksum = "735eaa21a6a5ffb2e84362faaeb90c05ba8e19797ca30428478cb6ea3a4921bc"
 dependencies = [
  "allocator-api2",
  "equivalent",
@@ -2791,7 +2791,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cc4e190f5d26ca7051642629da2c52fc03bde85a03197c99408dcd291734c855"
 dependencies = [
  "equivalent",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
 ]
 
 [[package]]
@@ -3468,7 +3468,7 @@ dependencies = [
  "cfg_aliases",
  "codespan-reporting",
  "half",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "indexmap",
  "libm",
  "log",
@@ -3487,7 +3487,7 @@ version = "30.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "14474170feb673cfb18b3565111a9869797cc1d290fb9ec969c53f5e1e231c6d"
 dependencies = [
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "indexmap",
  "rustc-hash 1.1.0",
  "thiserror 2.0.21",
@@ -4081,7 +4081,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f00d9e3b12cd601fbd38535b7a8dbc1f761bcc842c4be4803f7ac2d89bb78e01"
 dependencies = [
  "fontique",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "linebender_resource_handle",
  "parlance",
  "parley_engine",
@@ -4112,7 +4112,7 @@ checksum = "dd9c37658a7f75addef6fb3183cde6ed16fdf7757436dc64f073144f2b99879f"
 dependencies = [
  "fontique",
  "harfrust",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "icu_locale_core",
  "icu_normalizer",
  "icu_properties",
@@ -5022,7 +5022,7 @@ dependencies = [
  "bitflags",
  "cssparser",
  "derive_more",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "log",
  "new_debug_unreachable",
  "precomputed-hash",
@@ -5438,7 +5438,7 @@ dependencies = [
  "derive_more",
  "encoding_rs",
  "euclid",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "icu_segmenter",
  "indexmap",
  "itertools",
@@ -5524,7 +5524,7 @@ dependencies = [
  "app_units",
  "cssparser",
  "euclid",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "parking_lot",
  "selectors",
  "servo_arc",
@@ -5547,7 +5547,7 @@ dependencies = [
 [[package]]
 name = "stylo_taffy"
 version = "0.3.0-beta.4"
-source = "git+https://github.com/DioxusLabs/blitz#6636442d30ebe29289ebfbb8a3bf53ddfd640a0e"
+source = "git+https://github.com/DioxusLabs/blitz#cec303355bb0b83adca5136eb5cf9fbd66900bd8"
 dependencies = [
  "bitflags",
  "stylo",
@@ -5859,7 +5859,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c542ebb3b1d82d6567b3bc827a826d415c5c9565dec5bc985b9879bf2572567c"
 dependencies = [
  "cssparser",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "servo_arc",
  "smallbitvec",
  "smallvec",
@@ -6329,7 +6329,7 @@ dependencies = [
  "fearless_simd",
  "fearless_simd_macros",
  "glifo",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "vello_common",
 ]
 
@@ -6341,7 +6341,7 @@ checksum = "6a1f838f79b2ef62a4acc61057eca19ffadf496c36317093e2d6961836d6c92f"
 dependencies = [
  "bytemuck",
  "glifo",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "js-sys",
  "log",
  "thiserror 2.0.21",
@@ -6770,7 +6770,7 @@ dependencies = [
  "cfg-if",
  "cfg_aliases",
  "document-features",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "js-sys",
  "log",
  "naga 30.0.2",
@@ -6835,7 +6835,7 @@ dependencies = [
  "bytemuck",
  "cfg_aliases",
  "document-features",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "indexmap",
  "log",
  "naga 30.0.2",
@@ -6991,7 +6991,7 @@ dependencies = [
  "glow",
  "glutin_wgl_sys",
  "gpu-allocator",
- "hashbrown 0.17.1",
+ "hashbrown 0.17.2",
  "js-sys",
  "khronos-egl",
  "libc",
